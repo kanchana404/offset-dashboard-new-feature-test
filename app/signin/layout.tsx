@@ -1,8 +1,3 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata = {
   title: "Sign In - Printing Center Dashboard",
   description: "Sign in to your account",
@@ -13,11 +8,5 @@ export default function SignInLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        {children}
-      </body>
-    </html>
-  );
+  return <>{children}</>;
 }
