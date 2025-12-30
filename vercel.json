@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 15
+    },
+    "app/api/reports/invoices/route.ts": {
+      "maxDuration": 20
+    },
+    "app/api/reports/invoices/simple/route.ts": {
+      "maxDuration": 10
+    }
+  },
+  "regions": ["iad1"],
+  "framework": "nextjs"
+}
